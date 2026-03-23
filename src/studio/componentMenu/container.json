@@ -1,0 +1,12 @@
+[
+    {
+        "tag": "dev-container",
+        "componentType": "container",
+        "componentName": "容器",
+        "componentId": "",
+        "icon": "ios-grid",
+        "attr": null,
+        "props": null,
+        "children": []
+    }
+]

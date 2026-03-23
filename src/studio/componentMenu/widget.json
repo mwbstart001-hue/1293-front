@@ -1,0 +1,47 @@
+[
+    {
+        "tag": "widget-input",
+        "componentType": "widget",
+        "componentName": "输入框",
+        "componentId": "",
+        "icon": "ios-create-outline",
+        "attr": null,
+        "props": null
+    },
+    {
+        "tag": "widget-button",
+        "componentType": "widget",
+        "componentName": "按钮",
+        "componentId": "",
+        "icon": "ios-radio-button-on",
+        "attr": null,
+        "props": null
+    },
+    {
+        "tag": "widget-text",
+        "componentType": "widget",
+        "componentName": "文本",
+        "componentId": "",
+        "icon": "ios-document-outline",
+        "attr": null,
+        "props": null
+    },
+    {
+        "tag": "widget-select",
+        "componentType": "widget",
+        "componentName": "选择器",
+        "componentId": "",
+        "icon": "ios-arrow-dropdown",
+        "attr": null,
+        "props": null
+    },
+    {
+        "tag": "widget-switch",
+        "componentType": "widget",
+        "componentName": "开关",
+        "componentId": "",
+        "icon": "ios-switch",
+        "attr": null,
+        "props": null
+    }
+]
