@@ -1,0 +1,45 @@
+{
+  "name": "lowcode-studio",
+  "version": "1.0.0",
+  "description": "Low-code platform based on Vue 2.7 + View Design",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "view-design": "^4.5.1",
+    "vue-router": "^3.6.5",
+    "vuedraggable": "^2.24.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "sass": "^1.71.0",
+    "sass-loader": "^14.1.0",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
