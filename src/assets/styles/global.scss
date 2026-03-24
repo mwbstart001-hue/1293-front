@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  color: $text-color;
+  background-color: $bg-color;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c8ce;
+  border-radius: 3px;
+  
+  &:hover {
+    background: #a8abb2;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.component-item-wrapper {
+  position: relative;
+  min-height: 40px;
+  border: 1px dashed transparent;
+  transition: all $transition-time ease;
+  
+  &:hover {
+    border-color: $primary-color;
+    background: rgba($primary-color, 0.05);
+  }
+  
+  &.active {
+    border-color: $primary-color;
+    border-style: solid;
+    box-shadow: 0 0 0 2px rgba($primary-color, 0.2);
+  }
+  
+  .component-toolbar {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    display: none;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    background: #fff;
+    border-radius: $radius-sm;
+    box-shadow: $shadow-md;
+    z-index: 10;
+    
+    .component-title {
+      font-size: 12px;
+      color: $text-color;
+      font-weight: 500;
+    }
+  }
+  
+  &:hover .component-toolbar {
+    display: flex;
+  }
+  
+  .drag-anchor {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    background: $primary-color;
+    border-radius: 50%;
+    cursor: move;
+    opacity: 0;
+    transition: opacity $transition-time ease;
+    z-index: 11;
+  }
+  
+  &:hover .drag-anchor {
+    opacity: 1;
+  }
+}
+
+.canvas-container {
+  &.pc-mode {
+    width: 100%;
+    min-height: 100%;
+  }
+  
+  &.h5-mode {
+    width: 375px;
+    min-height: 667px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: $shadow-lg;
+  }
+}

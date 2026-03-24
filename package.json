@@ -1,0 +1,29 @@
+{
+  "name": "low-code-editor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "view-design": "^4.5.1",
+    "vue": "^2.7.14",
+    "vuedraggable": "^2.24.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
