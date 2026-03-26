@@ -1,6 +1,6 @@
 # LowCode Studio - 低代码平台框架
 
-一个基于 **Vue 2.7.14 + view-design 4.7.0 + vuedraggable** 构建的低代码可视化编辑器，支持组件拖拽布局、容器嵌套、PC/H5 双模式预览等核心能力。
+一个基于 ** Tauri + Rust + vuedraggable** 构建的低代码可视化编辑器，支持组件拖拽布局、容器嵌套、PC/H5 双模式预览等核心能力。
 
 ## 🎯 功能特性
 
@@ -17,8 +17,8 @@
 
 | 技术 | 版本 | 说明 |
 |------|------|------|
-| Vue | 2.7.14 | 渐进式 JavaScript 框架 |
-| view-design | 4.7.0 | 基于 Vue 的 UI 组件库（iView） |
+| Tauri | 2.7.14 | 渐进式 JavaScript 框架 |
+|Rust| 4.7.0 | 基于 Vue 的 UI 组件库（iView） |
 | vuedraggable | 2.x | 基于 Sortable.js 的 Vue 拖拽组件 |
 | vue-router | 3.x | Vue 路由管理 |
 | uuid | 9.x | 唯一 ID 生成 |
